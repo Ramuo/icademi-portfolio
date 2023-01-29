@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="browser.png"> 
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/6b269f5552.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/toggleBar.js" defer></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container flex">
+            <h1 class="logo"><a href="index.html">Mon Portfolio</a></h1>
+            <ul class="mainNav">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">A Propos</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="realisation.html">Réalisations</a></li>
+            </ul>
+            <button class="menuToggle" id="menuToggle"><img src="/images/layout/hamburger.svg" alt="Ouvrir / Fermer le menu" /></button>
+        </div>
+    </nav> 
+    <!-- asidebar Menu -->
+    <aside class="sidebar flex" id="sidebar">
+        <div class="overlay">
+            <button class="close-btn" id="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <!-- nav-links -->
+            <ul class="sidebar-links flex">
+                <li><a href="index.html" class="current">Accueil</a></li>
+                <li><a href="about.html">A Propos</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="realisation.html">Réalisations</a></li>
+            </ul>
+            <!-- social icons -->
+            <ul class="social-icons flex">
+                <li>
+                  <a href="https://github.com/Ramuo" target="_blank" class="social-icon">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/alpha-barry-paris/"  target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/alphaoumar.barry.315/" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/baosaram" target="_blank" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/alphaoumar.barry.315/?hl=fr" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+        </div>
+    </aside>
+    <!-- End asidebar menu-->
+
+    <!-- About -->
+    <section class=" about-bg-light" id="monContact">
+        <div class="about-container">
+            <div class="grid">
+                <!-- contact -->
+                <div class="contact">
+                    <div class="about-contact">
+                        <h1>Contact</h1>
+                        <div class="info-box">
+                            <i class="fas fa-envelope contact-icon" ></i>
+                            <div class="details">
+                                <h4>Email</h4>
+                                <p>barry.alpha88@outlook.fr</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <i class="fas fa-phone-volume contact-icon" ></i>
+                            <div class="details">
+                                <h4>Téléphone</h4>
+                                <p>07 58 66 25 81</p>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <i class="fas fa-location-dot contact-icon" ></i>
+                            <div class="details">
+                                <h4>Adresse</h4>
+                                <p>9 Rue Général Patton</p>
+                                <p>77000 Melun</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <!-- End contact -->
+                <div>
+                    <h3 id='#pro'>A propos de moi</h3>
+                    <p>
+                        Mon parcours professionnel a commencé en 2017 à la Poste notamment à la Plate-forme Industrielle Courrier du Finistère. Parallèlement à mes études, j’occupais un poste d’agent logistique à temps partiel.
+                    </p>
+                    <p>
+                        Lors de mon master, j’ai réalisé un stage de trois mois au Centre de Mobilité Internationale (CMI) de Brest. Les missions du stage consistaient à accompagner les étudiants internationaux d'établissements dans leurs démarches administratives.
+                    </p>
+                    <p>
+                        Par la suite, j'ai réalisé un deuxième stage à la Direction Régionale de la Jeunesse du Sport et de la Cohésion Sociale (DRJSCS) dont la mission consistait à faire un diagnostic sur l’attractivité de la Région Bretagne en matière de mobilité internationale des jeunes.
+                        Mon projet professionnel <a href="plan.html">Lire la suite...</a>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section> 
+    <!-- End About -->
+
+    <!-- Timeline -->
+    <section class="timeline" id="etude">
+        <div class="timeline-container">
+            <!-- section title -->
+            <div class="timeline-title">
+                <h2>Études supérieures</h2>
+                <div class="underline"></div>
+            </div>
+            <!--end of section title -->
+            <div class="timeline-area timeline-center">
+                <!-- single timeline item -->
+                <article class="timeline-item">
+                    <h4>2021 - 2022</h4>
+                    <p>
+                        <strong>Certification Métier <em>Developpement Web</em></strong> : <br> Les objectifs de la formation offrent la possibilité de maîtriser l’ensemble des étapes du développement d’applications informatiques web desktop et mobiles. De connaître le développement responsive pour une adaptabilité aux plateformes mobiles. 
+                        Modéliser et conceptionner des bases de données, connaître MERISE, SQL & NoSQL. Administrer des systèmes d’exploitation (Windows) et Linux. Avec le module Agile, la formation permet d'acquérir une autonomie de travail tout en développant la capacité de travail en équipe et la conduite de projet.
+                    </p>
+                    <span class="number">
+                        1
+                    </span>
+                </article>
+                <!-- end of  single timeline item -->
+                <!-- single timeline item -->
+                <article class="timeline-item">
+                    <h4>2020 - 2021</h4>
+                    <p>
+                       <strong> Master 2 Recherche Sciences de Gestion, UBO- IAE</strong> : <br> Ce Master a pour objectif de transmettre des connaissances théoriques et méthodologiques en Sciences de Gestion. Le parcours vise principalement à poursuivre vers la réalisation d’un travail doctoral.
+                    </p>
+                    <span class="number">
+                        2
+                    </span>
+                </article>
+                <!-- end of  single timeline item -->
+                <!-- single timeline item -->
+                <article class="timeline-item">
+                    <h4>2019 – 2020</h4>
+                    <p>
+                       <strong>Master Contrôle de Gestion et Audit Organisationnel (CGAO)</strong> :<br>L’objectif du master CGAO est de former des professionnels en contrôle de gestion et audit, rapidement opérationnels et en mesure d’évoluer dans des métiers en mutation. Il ne s’agit pas seulement de produire des chiffres mais de sélectionner des données pertinentes et de communiquer sur celles-ci en leur donnant du sens.
+                    </p>
+                    <span class="number">
+                        3
+                    </span>
+                </article>
+                <!-- end of  single timeline item -->
+                <!-- single timeline item -->
+                <article class="timeline-item">
+                    <h4>2015 – 2018</h4>
+                    <p>
+                       <strong>Licence Administration Economique et Sociale (AES)</strong>:La licence AES est une filière pluridisciplinaire. Elle procure des compétences transversales et complémentaires dans les domaines du droit, de l’économie, la gestion, la sociologie, les langues vivantes, l’informatique, et la méthodologie de travail universitaire.
+                    </p>
+                    <span class="number">
+                        4
+                    </span>
+                </article>
+                <!-- end of  single timeline item -->
+            </div>
+        </div>
+      </section>
+      <!--End of  Timeline -->
+
+       <!-- Footer -->
+    <footer class="mainFooter">
+        <div class="footerContainer flex">
+            <div>
+                <h1><a href="about.html#monContact" title="Me Contacter">Alpha BARRY</a></h1>
+                <p>Copyright &copy; 2023</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">A Propos</a></li>
+                    <li><a href="skills.html">Compétences</a></li>
+                    <li><a href="realisation.html">Réalisations</a></li>
+                </ul>
+            </nav>
+            <div class="footerSocial">
+                <a href="https://github.com/Ramuo" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.facebook.com/alphaoumar.barry.315/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/alpha-barry-paris/"  target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://twitter.com/baosaram" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
