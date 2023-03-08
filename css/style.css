@@ -848,7 +848,11 @@ img {
 .savoir-etre{
     width: 600px;
     text-align: justify;
+    margin-bottom: 50px;
 } 
+.savoir-etre.vise{
+    margin-bottom: 10px; 
+}
 .savoir-etre p{
     margin-bottom: 20px;
 }
@@ -976,7 +980,11 @@ img {
 }
 
 
-
+.avant{
+    display: grid;
+    place-items: center;
+    margin-top: 55px;
+}
 
 
 
