@@ -248,6 +248,7 @@ a:focus,
 .pimg1{
     background-image: url('/images/icademie-img.png');
     min-height: 100%;
+    background-size: 700px;
 }
 .pimg2{
     background-image: url('/images/road-to-learn.jpg');
